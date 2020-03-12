@@ -110,7 +110,7 @@ class PhotoSwipe extends React.Component {
     className = classnames(['pswp', className]).trim();
     return (
       <div
-        id={id}
+        id={id || null}
         className={className}
         tabIndex="-1"
         role="dialog"
