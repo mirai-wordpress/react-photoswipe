@@ -36,19 +36,6 @@ const webpackConfig = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'eslint-loader',
-          options: {
-            configFile: path.join(__dirname, '.eslintrc'),
-            failOnError: true,
-            emitError: true
-          }
-        },
-        enforce: 'pre'
-      },
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
         loader: 'babel-loader'
       }
     ]
