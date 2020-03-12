@@ -139,7 +139,7 @@ class PhotoSwipe extends React.Component {
               />
               <button
                 className="pswp__button pswp__button--fs"
-                title="Toggle fullscreen"
+                title="Fullscreen"
               />
               <button className="pswp__button pswp__button--zoom" title="Zoom in/out"/>
               <div className="pswp__preloader">
@@ -155,11 +155,11 @@ class PhotoSwipe extends React.Component {
             </div>
             <button
               className="pswp__button pswp__button--arrow--left"
-              title="Previous (arrow left)"
+              title="Previous"
             />
             <button
               className="pswp__button pswp__button--arrow--right"
-              title="Next (arrow right)"
+              title="Next"
             />
             <div className="pswp__caption">
               <div className="pswp__caption__center"/>
